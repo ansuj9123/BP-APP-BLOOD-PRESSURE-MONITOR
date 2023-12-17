@@ -16,7 +16,7 @@ function Home() {
         <p className='fs-2 text-uppercase' >Blood Pressure Monitor</p>
       </section>
       <section>
-        <Button onClick={()=>navigate("/Medication")} variant='dark'>Get Started</Button>
+        <Button onClick={()=>navigate("/Disclaimer")} variant='dark'>Get Started</Button>
       </section>
     </div>
   );

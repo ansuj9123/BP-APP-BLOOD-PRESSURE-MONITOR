@@ -10,6 +10,7 @@ import Medication from "./components/Medication";
 import Service from "./components/Service";
 import Systolic from "./components/Systolic";
 import Prescription from "./components/Prescription";
+import Disclaimer from "./components/Disclaimer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/Systolic" element={<Systolic />}></Route>
         <Route exact path="/SystolicError" element={<Systolic />}></Route>
         <Route exact path="/Prescription" element={<Prescription />}></Route>
+        <Route exact path="/Disclaimer" element={<Disclaimer />}></Route>
       </Routes>
     </Router>
   );
