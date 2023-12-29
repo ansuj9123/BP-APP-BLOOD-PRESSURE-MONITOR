@@ -11,7 +11,7 @@ import {
   image,
   IMG,
 } from "../data/Data";
-import Ethnicity from "./Ethnicity";
+
 
 
 function Systolic() {

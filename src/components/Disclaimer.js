@@ -36,7 +36,7 @@ const Disclaimer = () => {
         understood this disclaimer. If you do not agree with any part of this
         disclaimer, please do not use the App.
       </div>
-      <section>
+      <section className="d-flex justify-content-center p-5">
         <Button onClick={() => navigate("/Medication")} variant="dark">
           NEXT
         </Button>
